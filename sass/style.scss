@@ -1,0 +1,23 @@
+@import "normalize.scss";
+
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "global/body.scss";
+@import "global/fonts.scss";
+// @import "global/forms.scss";
+// @import "global/layout.scss";
+// @import "global/type.scss";
+
+
+
+@import "blocks/page-header.scss";
+@import "blocks/page-main.scss";
+@import "blocks/page-footer.scss";
+
+@import "blocks/call-back.scss";
+@import "blocks/promo.scss";
+@import "blocks/advantages.scss";
+@import "blocks/commerce.scss";
+@import "blocks/guarantee.scss";
+@import "blocks/adress.scss";

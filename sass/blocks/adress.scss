@@ -1,0 +1,44 @@
+.adress {
+  position: relative;
+
+  @media #{$tablet} {
+    min-height: 600px;
+  }
+
+  &__title {
+    color: #444440;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+    @media #{$tablet} {
+      font-size: 65px;
+    }
+
+    @media #{$mobile} {
+      font-size: 35px;
+    }
+  }
+
+
+  &__map {
+
+    @media #{$tablet} {
+      position: absolute;
+      top: 98px;
+      left: 124px;
+    }
+
+    & iframe {
+      @media #{$tablet} {
+        width: 770px;
+        height: 450px;
+      }
+
+      @media #{$mobile} {
+        width: 100%;
+        height: 350px;
+      }
+    }
+  }
+}

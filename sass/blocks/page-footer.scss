@@ -1,0 +1,42 @@
+.page-footer {
+  background: #e8c139;
+  position: relative;
+
+  // @include container;
+
+  &__workman {
+    @media #{$tablet} {
+      position: absolute;
+      bottom: 160px;
+      right: 0;
+      z-index: 100;
+    }
+
+    @media #{$mobile} {
+      display: none;
+    }
+  }
+
+  @media #{$tablet} {
+
+  }
+}
+
+
+.contact {
+  background: #000;
+  color: #fdd55b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+
+  @media #{$tablet} {
+    min-height: 160px;
+    font-size: 45px;
+  }
+
+  @media #{$mobile} {
+    min-height: 50px;
+  }
+}

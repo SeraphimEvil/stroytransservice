@@ -1,0 +1,38 @@
+@mixin container {
+  margin: 0 auto;
+
+  @media #{$tablet} {
+    width: 935px;
+  }
+
+  @media #{$mobile} {
+    width: 100%;
+  }
+}
+
+@mixin container--second {
+  width: 648px;
+  margin: 0 auto;
+}
+
+
+@mixin btn {
+  display: inline-block;
+  vertical-align: top;
+  background: #0d0b08;
+  color: #fdd55b;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  box-shadow: 5px 5px #fdd55b;
+  border-radius: 10px;
+
+  &:hover {
+
+  }
+
+  &:active {
+
+  }
+}

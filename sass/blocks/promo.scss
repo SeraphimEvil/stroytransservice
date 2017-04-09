@@ -1,0 +1,39 @@
+.promo {
+
+  @media #{$tablet} {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  @media #{$mobile} {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+
+  &__title {
+    text-align: center;
+    color: #bad7ee;
+
+    @media #{$tablet} {
+      font-size: 60px;
+    }
+
+    @media #{$mobile} {
+      font-size: 27px;
+    }
+  }
+
+  &__text {
+    color: #f8f15d;
+    text-align: justify;
+
+    @media #{$tablet} {
+      padding: 0 40px;
+    }
+
+    @media #{$mobile} {
+      padding: 0 20px;
+    }
+  }
+}

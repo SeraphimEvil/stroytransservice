@@ -1,0 +1,72 @@
+.call-back {
+  position: absolute;
+  background: #fdd55b;
+
+  @media #{$tablet} {
+    width: 490px;
+    min-height: 170px;
+
+    right: 83px;
+    bottom: 70px;
+  }
+
+  @media #{$mobile} {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__btn {
+    @include btn;
+    position: absolute;
+
+    @media #{$tablet} {
+      font-size: 45px;
+      top: -125px;
+      left: 135px;
+      padding: 20px 50px;
+    }
+
+    @media #{$mobile} {
+      top: -70px;
+      right: 30px;
+      font-size: 30px;
+      padding: 5px 20px;
+    }
+  }
+
+  &__phone {
+    box-sizing: border-box;
+
+    @media #{$tablet} {
+      padding: 0px 35px;
+    }
+
+    @media #{$mobile} {
+      text-align: center;
+    }
+
+    & span {
+      font-weight: 700;
+
+      @media #{$tablet} {
+        font-size: 40px;
+      }
+
+      @media #{$mobile} {
+        font-size: 25px;
+      }
+    }
+  }
+
+  &__text {
+
+    @media #{$tablet} {
+      font-size: 35px;
+    }
+
+    @media #{$mobile} {
+      font-size: 25px;
+    }
+  }
+}

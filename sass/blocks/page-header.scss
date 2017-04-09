@@ -1,0 +1,14 @@
+.page-header {
+  background: url("../img/bg-main.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+
+  @media #{$tablet} {
+    min-height: 840px;
+  }
+
+  @media #{$mobile} {
+    min-height: 500px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+.guarantee {
+  text-align: center;
+  @include container;
+
+  font-weight: 500;
+
+  @media #{$tablet} {
+    font-size: 23px;
+  }
+
+  @media #{$mobile} {
+    padding: 0 20px;
+    font-size: 20px;
+  }
+}

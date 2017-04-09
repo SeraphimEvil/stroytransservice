@@ -1,2 +1,2 @@
-# stroytransservice
-Сайт-визитка компании "Стройтранссервис"
+# Sedona-with-Adapt-BEFORE-advanced
+Верстка адаптивной версии Sedona HTMLacademy

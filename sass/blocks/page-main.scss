@@ -1,0 +1,9 @@
+.page-main {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+
+  @include container;
+
+  background-image: linear-gradient(to bottom, #3e3e41, #fff);
+}
