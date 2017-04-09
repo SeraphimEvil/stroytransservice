@@ -678,7 +678,14 @@ body {
       font-size: 20px; } }
 
 .adress {
-  position: relative; }
+  position: relative;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .adress {
+      width: 935px; } }
+  @media (max-width: 767px) {
+    .adress {
+      width: 100%; } }
   @media (min-width: 768px) {
     .adress {
       min-height: 600px; } }
@@ -696,8 +703,9 @@ body {
   @media (min-width: 768px) {
     .adress__map {
       position: absolute;
-      top: 98px;
-      left: 124px; } }
+      top: 80px;
+      left: 50%;
+      margin-left: -385px; } }
   @media (min-width: 768px) {
     .adress__map iframe {
       width: 770px;

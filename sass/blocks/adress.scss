@@ -1,5 +1,6 @@
 .adress {
   position: relative;
+  @include container;
 
   @media #{$tablet} {
     min-height: 600px;
@@ -25,8 +26,9 @@
 
     @media #{$tablet} {
       position: absolute;
-      top: 98px;
-      left: 124px;
+      top: 80px;
+      left: 50%;
+      margin-left: -385px;
     }
 
     & iframe {
